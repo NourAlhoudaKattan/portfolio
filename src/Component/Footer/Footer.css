@@ -1,0 +1,16 @@
+.footer {
+  padding: 56px 5.1244vw 56px 5.1244vw;
+  margin-top: 100px;
+ 
+  color: var(--primary);
+ 
+  font-size: 1.8rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+background-repeat: no-repeat;
+background-size: 100% 100%;
+background-position: center;
+}

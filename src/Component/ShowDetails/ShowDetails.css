@@ -1,0 +1,44 @@
+
+
+.pshow{
+ padding:56px 5.124vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+   
+}
+.item-img-det{max-width: 700px;}
+.item-img-det img{width:100%  
+}
+
+.item-text-det h1{
+    font-size: 2.5rem;
+    font-weight: 700; 
+ 
+}
+.item-text-det h6{
+    font-size: 12px;
+    font-weight: 400;
+  
+}
+.item-text-det h3{
+font-size: 18px;
+font-weight: 700;
+margin-top: 31px;
+
+
+}
+.description{
+font-size: 0.875rem;
+font-weight: 400;
+line-height: 23px;
+text-align: justified;
+margin-top: 10px;
+max-width: 691.25px;
+
+}
+.btn-back{
+    padding:24px 5.124vw 0 5.124vw ;
+   width: 15%;
+}
+
