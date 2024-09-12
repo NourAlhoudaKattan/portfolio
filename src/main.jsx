@@ -6,7 +6,7 @@ import { BrowserRouter } from 'react-router-dom'
 import { ThemeProvider } from '../Contexts/theme.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <BrowserRouter>
+  <BrowserRouter basename="/portfolio/">
   <React.StrictMode>
 
   <ThemeProvider>
