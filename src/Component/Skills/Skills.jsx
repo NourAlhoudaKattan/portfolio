@@ -27,7 +27,7 @@ export default function Skills() {
   console.log(theme)
   return (
     <>
-     <div className="skills" id='skills' data-aos="fade-up"
+     <div className="skills" id='Skills' data-aos="fade-up"
      data-aos-duration="3000" style={{ backgroundColor: theme.backgroundImage}}>
      <h1  className={isDark?'titledark':'titlelight'} id='sk'>Skills</h1>
       <Swiper
