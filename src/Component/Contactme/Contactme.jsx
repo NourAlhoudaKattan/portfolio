@@ -8,10 +8,10 @@ import facebook from "../../assets/img/facebook.svg";
 import telegram from "../../assets/img/telegram.svg";
 import linkedin from "../../assets/img/in.svg";
 import "./Contactme.css";
-import { Link } from "react-router-dom";
+
 const Contactme = () => {
   const [{ theme, isDark }, toggleTheme] = useContext(ThemeContext);
-  console.log(theme);
+
   return (
     <div
       className="contactme"
@@ -20,8 +20,7 @@ const Contactme = () => {
     >
       <h1 className={isDark ? "titledark" : "titlelight"}>Contact Me</h1>
       <div className="sochial-form">
-        <div className="sochial"  data-aos="fade-up"
-     data-aos-duration="3000">
+        <div className="sochial" data-aos="fade-up" data-aos-duration="3000">
           <div className="contact-sochial">
             <img src={email} alt="" />
             <div className="contact-sochial-text">
@@ -59,20 +58,31 @@ const Contactme = () => {
             </a>
           </div>
         </div>
-        <div className="form"  data-aos="fade-up"
-     data-aos-duration="3000"
->
+        <div className="form" data-aos="fade-up" data-aos-duration="3000">
           <div className="form-g">
             <h3>Name</h3>
-            <input type="text" placeholder="enter your name"  className={isDark?'form-input-dark':'form-input'}  />
+            <input
+              type="text"
+              placeholder="enter your name"
+              className={isDark ? "form-input-dark" : "form-input"}
+            />
           </div>
           <div className="form-g">
             <h3>Email</h3>
-            <input type="text" placeholder="enter your email" className="form-input" />
+            <input
+              type="text"
+              placeholder="enter your email"
+              className="form-input"
+            />
           </div>
           <div className="form-g">
             <h3>Message</h3>
-            <input type="text" placeholder="enter your message" id="message" className="form-input" />
+            <input
+              type="text"
+              placeholder="enter your message"
+              id="message"
+              className="form-input"
+            />
             <button>Send</button>
           </div>
         </div>

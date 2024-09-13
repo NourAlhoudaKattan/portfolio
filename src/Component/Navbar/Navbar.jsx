@@ -12,8 +12,7 @@ import togglelight from "../../assets/img/toggellight.svg";
 import toggeldark from "../../assets/img/toggeldark.svg";
 import line from "../../assets/img/line.png";
 import { useState } from "react";
-// import { Link} from "react-router-dom";
- import { Link } from "react-scroll";
+import { Link } from "react-scroll";
 
 function changeBg() {
   let navbar = document.getElementsByClassName("Nav");
@@ -28,10 +27,8 @@ window.addEventListener("scroll", changeBg);
 
 const Navbar = ({ menu, bccolor }) => {
   const [{ theme, isDark }, toggleTheme] = useContext(ThemeContext);
-  console.log(theme);
   const [list, setlist] = useState(false);
   const [Home, setHome] = useState("");
-console.log(Home)
   return (
     <div>
       <div className={bccolor ? "Navcolor" : "Nav"}>
@@ -40,11 +37,29 @@ console.log(Home)
           {menu.map((e, index) => {
             return (
               <li key={index}>
-                <Link activeClass="active"  to={e.path} spy={true} smooth={true} offset={1} duration={500} className="TEXTNAV-LINE">
-                <p onClick={()=>{setHome(e.title)}}> {e.title}</p> 
-                 {Home=== e.title?<img src={line} className="imgline"/>:<></>}
+                <Link
+                  activeClass="active"
+                  to={e.path}
+                  spy={true}
+                  smooth={true}
+                  offset={1}
+                  duration={500}
+                  className="TEXTNAV-LINE"
+                >
+                  <p
+                    onClick={() => {
+                      setHome(e.title);
+                    }}
+                  >
+                    {" "}
+                    {e.title}
+                  </p>
+                  {Home === e.title ? (
+                    <img src={line} className="imgline" />
+                  ) : (
+                    <></>
+                  )}
                 </Link>
-               
               </li>
             );
           })}

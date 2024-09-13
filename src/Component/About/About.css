@@ -1,65 +1,66 @@
-.About{
-    /* padding: 72px 5.2708vw 56px 5.2708vw; */
-    padding: 0px 5.2708vw 0px 5.2708vw;
-    margin-top: 16px;
+.About {
+  padding: 0px 5.2708vw 0px 5.2708vw;
+  margin-top: 16px;
 }
-.titlelight{
-     padding: 100px 0 100px 0px; 
-    text-align: center;
-    color:var(--title);
-    font-size: 4rem;
+.titlelight {
+  padding: 100px 0 100px 0px;
+  text-align: center;
+  color: var(--title);
+  font-size: 4rem;
 }
-.titledark{
-    padding: 100px 0 100px 0px;
-    text-align: center;
-    color:var( --titledark);
-    font-size: 4rem;
+.titledark {
+  padding: 100px 0 100px 0px;
+  text-align: center;
+  color: var(--titledark);
+  font-size: 4rem;
 }
-.img-text-About{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
+.img-text-About {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
 }
-.About p{ 
-    font-size: 2rem;
-    text-align: center;
-    margin-top: 56px;
- 
+.About p {
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 56px;
 }
- 
-.img-about{
-    max-width: 500px;
-}
- .img-about img{
-    width:100%;
-    } 
-.icon-about{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap:24px;
- 
-    }
- .icon-about img:hover{
-    transform: scale(1.2);
-    transition: transform 1s;
- }
-.text-icon{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items:center;
-    gap: 56px;
-} 
 
-@media screen and (max-width:992px) {
-    .About p{ 
-       margin-top:24px;
-       
-    }
-    .icon-about img{width: 80%;}
-   
-    .titlelight,.titledark{  padding:50px 0 50px 0px; }
+.img-about {
+  max-width: 500px;
+}
+.img-about img {
+  width: 100%;
+}
+.icon-about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+.icon-about img:hover {
+  transform: scale(1.2);
+  transition: transform 1s;
+}
+.text-icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 56px;
+}
+
+@media screen and (max-width: 992px) {
+  .About p {
+    margin-top: 24px;
+  }
+  .icon-about img {
+    width: 80%;
+  }
+
+  .titlelight,
+  .titledark {
+    padding: 50px 0 50px 0px;
+  }
 }

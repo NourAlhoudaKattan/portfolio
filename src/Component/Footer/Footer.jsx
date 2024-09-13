@@ -10,7 +10,7 @@ import linkedin from '../../assets/img/in.svg'
 
 const Footer = () => {
   const [{theme,isDark},toggleTheme]=useContext(ThemeContext)
-  console.log(theme)
+
   return (
     <div  style={{ backgroundColor: theme.backgroundImage,color: theme.color }}>
     <div className='footer'  style={isDark?{backgroundImage:`url(${bcfooterdark})`}:{backgroundImage:`url(${bcfooter})`}}>
