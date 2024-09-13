@@ -84,7 +84,7 @@ margin: 0 auto;
 .icon-sochial{
     display: flex;
 gap: 8%;
-    margin-top:32px;
+    margin-top:48px;
 }
 .form button:hover{
     transform: scale(1.2);
@@ -95,7 +95,9 @@ gap: 8%;
     transform: scale(1.2);
     transition: transform 1s;
   }
-
+  .icon-sochial img{
+    width: 80%;
+}
 @media screen and (max-width:992px) {
     .contact-sochial img,.icon-sochial img{ 
         width: 15%;
