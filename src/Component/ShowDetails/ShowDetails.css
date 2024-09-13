@@ -43,7 +43,6 @@ max-width: 691.25px;
 }
 @media screen and (max-width:992px) {
     .btn-back{
-      
        width: 25%;
     }
 }

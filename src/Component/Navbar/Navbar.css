@@ -105,7 +105,7 @@ background-image: url(../../assets/img/bcnav.png);
  
 }
 .navbarScroll{
-  background-color:var(--secondary);
+  background-image: url(../../assets/img/bcnav.png);
 }
 /* .active{
   border-bottom:solid 3px  var(--title);
