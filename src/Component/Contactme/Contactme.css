@@ -43,7 +43,7 @@
     flex-direction: column;
     gap: 8px;
 }
-.form input{
+.form-input{
    width: 48vw;
    height: 56px;
   background-color: var(--primary);
@@ -51,6 +51,15 @@
    border-radius: 10px;
    padding: 16px;
    
+}
+.form-input-dark{
+    width: 48vw;
+    height: 56px;
+   background-color: var(--primary);
+    border:2px solid  var(--titledark);
+    border-radius: 10px;
+    padding: 16px;
+    
 }
 .form input::placeholder{
     color: var(--title);

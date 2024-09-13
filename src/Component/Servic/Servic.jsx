@@ -19,13 +19,11 @@ const Servic = () => {
       <h1  className={isDark?'titledark':'titlelight'}>Service</h1>
       <div className="serv">
       {servic.map(e=>{
-        return   <div className="card-serv" data-aos="flip-left"  data-aos-easing="ease-out-cubic" data-aos-duration="2000">
-                  
+        return   <div  className={isDark?'card-serv-dark':'card-serv'} data-aos="flip-left"  data-aos-easing="ease-out-cubic" data-aos-duration="2000">
            <img src={e.img} alt="" />
            <p> {e.text}</p>
         </div>
       })
-
       }
       </div>
     </div>

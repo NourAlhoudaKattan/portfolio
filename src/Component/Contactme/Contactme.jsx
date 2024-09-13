@@ -64,15 +64,15 @@ const Contactme = () => {
 >
           <div className="form-g">
             <h3>Name</h3>
-            <input type="text" placeholder="enter your name" />
+            <input type="text" placeholder="enter your name"  className={isDark?'form-input-dark':'form-input'}  />
           </div>
           <div className="form-g">
             <h3>Email</h3>
-            <input type="text" placeholder="enter your email" />
+            <input type="text" placeholder="enter your email" className="form-input" />
           </div>
           <div className="form-g">
             <h3>Message</h3>
-            <input type="text" placeholder="enter your message" id="message" />
+            <input type="text" placeholder="enter your message" id="message" className="form-input" />
             <button>Send</button>
           </div>
         </div>

@@ -14,12 +14,10 @@
     width: 60px;
 }
 .card-serv{
-  /* border: 1px solid  transparent;
-  border-image: linear-gradient(to right,#765197, #D171B9) 10;  */
   max-width: 400px;
   height: 300px;
   padding: 24px;
-   border: 2px solid  var(--title); 
+   border: 2px solid  var( --title); 
   border-radius: 15px;
 display: flex;
 flex-direction: column;
@@ -28,12 +26,28 @@ align-items: center;
 gap: 24px;
 margin-top: 24px;
 }
-.card-serv p{
+.card-serv-dark{
+    max-width: 400px;
+    height: 300px;
+    padding: 24px;
+     border: 2px solid  var(--titledark); 
+    border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  margin-top: 24px;
+
+}
+
+
+
+.card-serv p,.card-serv-dark p{
      letter-spacing: 1px;
     max-width: 300px;
     text-align: center;
     font-size: 1.4rem;
     font-weight: 100;
     padding: 16px;
-   
 }

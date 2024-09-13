@@ -34,11 +34,15 @@ const ShowDetails = () => {
     <div>
     <Link to="/">  <img src={back} alt="" className="btn-back" /></Link>
        <div className="pshow" style={{ backgroundColor: theme.backgroundImage,color: theme.color }} >
-       <div className="item-img-det">{<img src={pro.img} alt="" /> }</div>
-       <div className="item-text-det">
+       <div className="item-img-det">{<img src={pro.img} alt=""  data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1500"/> }</div>
+       <div className="item-text-det" data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1500">
          <h3>Name:</h3>
          <p>{pro.Name}</p>
-         <h3>Details:</h3>
+         <h3>Details:</h3> 
          <p className="description">{pro.dit}</p>
          <h3>Languages and Techniqes</h3>
          <p className="description">{pro.text}</p>
