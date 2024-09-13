@@ -36,6 +36,9 @@
   padding: 24px 5.124vw 0 5.124vw;
   width: 15%;
 }
+.github-link{
+    text-decoration: none;
+}
 @media screen and (max-width: 992px) {
   .btn-back {
     width: 25%;

@@ -21,15 +21,15 @@ const ShowDetails = () => {
       link: "https://nouralhoudakattan.github.io/books/",
       img: BOOKIMG,
       text: "React,Api",
-      dit: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, veniam.",
+      dit: "A project with two pages was developed using React and integrated with API links. The Dark Mode and Light Mode features were added to enhance user experience across both pages. Users can conveniently switch between modes to cater to their preferences.",
     },
     {
       id: 2,
       Name: "  Organic",
       link: "https://nouralhoudakattan.github.io/FINAL-L1/",
       img: ORIMG,
-      text: "html,Css",
-      dit: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, veniam.",
+      text: "Html,Css",
+      dit: "This project was coded using HTML and CSS, featuring a multi-page design that is fully responsive across all screen sizes. This ensures a seamless and comfortable user experience on various devices, reflecting our attention to detail and user comfort",
     },
     {
       id: 3,
@@ -37,7 +37,7 @@ const ShowDetails = () => {
       link: "https://nouralhoudakattan.github.io/task-5/",
       img: FURIMG,
       text: "Html,Css",
-      dit: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, veniam.",
+      dit: "This project was coded using HTML and CSS, featuring a multi-page design that is fully responsive across all screen sizes. This ensures a seamless and comfortable user experience on various devices, reflecting our attention to detail and user comfort",
     },
     {
       id: 4,
@@ -45,23 +45,23 @@ const ShowDetails = () => {
       link: "https://nouralhoudakattan.github.io/task-4/",
       img: RNIMG,
       text: "Html,Css",
-      dit: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, veniam.",
+      dit: "This project was coded using HTML and CSS, featuring a multi-page design that is fully responsive across all screen sizes. This ensures a seamless and comfortable user experience on various devices, reflecting our attention to detail and user comfort",
     },
     {
       id: 5,
       Name: "Travel",
       link: "https://nouralhoudakattan.github.io/travel/",
       img: TRVELIMG,
-      text: "react",
-      dit: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, veniam.",
+      text: "React",
+      dit: "This project was developed using React and features a multi-page layout. It offers a seamless user experience and is designed to be fully responsive, adapting well to various screen sizes. The use of React ensures a dynamic and interactive interface for users across different devices",
     },
     {
       id: 6,
       Name: "university",
       link: "https://nouralhoudakattan.github.io/travel/",
       img: UNIIMG,
-      text: "react",
-      dit: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, veniam.",
+      text: "React",
+      dit: "This project was developed using React and features a multi-page layout. It offers a seamless user experience and is designed to be fully responsive, adapting well to various screen sizes. The use of React ensures a dynamic and interactive interface for users across different devices",
     },
   ];
 
@@ -101,7 +101,7 @@ const ShowDetails = () => {
           <h3>Languages and Techniqes</h3>
           <p className="description">{pro.text}</p>
           <h3>Github</h3>
-          <Link to={pro.link}>{pro.link}</Link>
+          <Link to={pro.link} className="github-link"   style={{color: theme.color }}>{pro.link}</Link>
         </div>
       </div>
     </div>

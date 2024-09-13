@@ -5,14 +5,14 @@
 }
 .contact-sochial {
   display: flex;
-  gap: 32px;
+  gap:24px;
 
   align-items: center;
 }
 .contact-sochial-text {
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 8px;
 }
 .contact-sochial-text h3,
 .form h3 {
@@ -86,7 +86,7 @@
 .icon-sochial {
   display: flex;
   gap: 8%;
-  margin-top: 36px;
+  margin-top:56px;
 }
 .form button:hover {
   transform: scale(1.2);
