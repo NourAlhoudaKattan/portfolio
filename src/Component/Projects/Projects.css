@@ -52,7 +52,7 @@ transform: translate(-24%,-50%);
 
 }
 #btn-card{
-    transform: translate(50%,-50%);}
+    transform: translate(56%,-50%);}
 
 .card-pro-child:hover div{ display: block;}
 @media screen and (max-width:992px) {
