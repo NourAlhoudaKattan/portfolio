@@ -49,9 +49,7 @@ const Projects = () => {
           return (
             <div
               className="card-pro-child  "
-              data-aos="flip-left"
-              data-aos-easing="ease-out-cubic"
-              data-aos-duration="2000"
+         
             >
               <img src={e.Name} alt="" />
               <div className="button-card">

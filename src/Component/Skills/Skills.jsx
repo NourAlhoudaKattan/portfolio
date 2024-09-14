@@ -30,8 +30,7 @@ export default function Skills() {
       <div
         className="skills"
         id="Skills"
-        data-aos="fade-up"
-        data-aos-duration="3000"
+  
         style={{ backgroundColor: theme.backgroundImage }}
       >
         <h1 className={isDark ? "titledark" : "titlelight"} >

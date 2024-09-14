@@ -90,9 +90,7 @@ const ShowDetails = () => {
         </div>
         <div
           className="item-text-det"
-          data-aos="fade-down"
-          data-aos-easing="linear"
-          data-aos-duration="1500"
+     
         >
           <h3>Name:</h3>
           <p>{pro.Name}</p>

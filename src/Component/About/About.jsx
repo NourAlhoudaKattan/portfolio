@@ -19,8 +19,6 @@ const About = () => {
       <h1 className={isDark ? "titledark" : "titlelight"}>About Me</h1>
       <div
         className="img-text-About"
-        data-aos="fade-up"
-        data-aos-duration="3000"
       >
         <div className="img-about">
           <img src={imgabout} />
