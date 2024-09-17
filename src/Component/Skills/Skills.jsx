@@ -89,7 +89,7 @@ export default function Skills() {
             {" "}
             <div className="htm">
               <img src={git} alt="" />
-              <p style={{ color: "#000000" }}>Git/Github</p>
+              <p  style={{color: theme.color }}>Git/Github</p>
             </div>
           </SwiperSlide>
           <SwiperSlide>

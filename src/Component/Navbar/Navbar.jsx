@@ -31,54 +31,98 @@ const Navbar = ({ menu, bccolor }) => {
   const [Home, setHome] = useState("");
   return (
     <div>
-      <div className={bccolor ? "Navcolor" : "Nav"}>
-        <img src={NAK} alt="" />
-        <ul>
-          {menu.map((e, index) => {
-            return (
-              <li key={index}>
-                <Link
-                  activeClass="active"
-                  to={e.path}
-                  spy={true}
-                  smooth={true}
-                  offset={1}
-                  duration={500}
-                  className="TEXTNAV-LINE"
-                >
-                  <p
-                    onClick={() => {
-                      setHome(e.title);
-                    }}
+      <nav className={bccolor ? "Navcolor" : "Nav"}>
+        <div className="logo-menu">
+          <img src={NAK} alt="" />
+          <ul className="ul-nav">
+            {menu.map((e, index) => {
+              return (
+                <li key={index}>
+                  <Link
+                    activeClass="active"
+                    to={e.path}
+                    spy={true}
+                    smooth={true}
+                    offset={1}
+                    duration={500}
+                    className="TEXTNAV-LINE"
                   >
-                    {" "}
-                    {e.title}
-                  </p>
-                  {Home === e.title ? (
-                    <img src={line} className="imgline" />
-                  ) : (
-                    <></>
-                  )}
-                </Link>
-              </li>
-            );
-          })}
-        </ul>
-        <img
-          src={isDark ? sun : moon}
-          onClick={toggleTheme}
-          alt=""
-          className="moon"
-        />
-        <img
-          src={menue}
-          alt=""
-          className="menuicon"
-          onClick={() => setlist(!list)}
-        />
-      </div>
+                    <p
+                      onClick={() => {
+                        setHome(e.title);
+                      }}
+                    >
+                      {" "}
+                      {e.title}
+                    </p>
+                    {Home === e.title ? (
+                      <img src={line} className="imgline" />
+                    ) : (
+                      <></>
+                    )}
+                  </Link>
+                </li>
+              );
+            })}
+          </ul>
+          <img
+            src={isDark ? sun : moon}
+            onClick={toggleTheme}
+            alt=""
+            className="moon"
+          />
+          <img
+            src={menue}
+            alt=""
+            className="menuicon"
+            onClick={() => setlist(!list)}
+          />
+        </div>
 
-      <div className="pdivleft">
+        <div
+          className="divleft"
+          style={{
+            display: list ? "block" : "none",
+            backgroundColor: theme.backgroundImage,
+            color: theme.color,
+          }}
+        >
+          <img
+            src={isDark ? xlight : X}
+            alt=""
+            onClick={() => setlist(!list)}
+            className="X"
+          />
+          <ul className="ul-menu">
+            {menu.map((e, index) => {
+              return (
+                <li key={index}>
+                  <Link
+                    activeClass="active"
+                    to={e.path}
+                    spy={true}
+                    smooth={true}
+                    offset={50}
+                    duration={500}
+                  >
+                    {e.title}
+                  </Link>
+                </li>
+              );
+            })}
+          </ul>
+          <hr id="line" />
+          <div className="text-light-menu">
+            <img
+              src={isDark ? togglelight : toggeldark}
+              onClick={toggleTheme}
+            />
+            <span id="light"> {isDark ? "Dark mood" : "Light mood"}</span>
+          </div>
+        </div>
+      </nav>
+
+      {/* <div className="pdivleft">
         <div
           className="divleft"
           style={{
@@ -120,7 +164,7 @@ const Navbar = ({ menu, bccolor }) => {
             <span id="light"> {isDark ? "Dark mood" : "Light mood"}</span>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
