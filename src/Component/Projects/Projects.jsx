@@ -32,7 +32,7 @@ const Projects = () => {
       Name: travel,
       link: "https://nouralhoudakattan.github.io/travel/",
     },
-    { id: 6, Name: uni, link: " https://nouralhoudakattan.github.io/part-university/" },
+    { id: 6, Name: uni, link: "https://nouralhoudakattan.github.io/part-university/" },
   ];
   const [{ theme, isDark }, toggleTheme] = useContext(ThemeContext);
 
