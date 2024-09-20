@@ -58,7 +58,7 @@ const ShowDetails = () => {
     {
       id: 6,
       Name: "university",
-      link: "https://nouralhoudakattan.github.io/travel/",
+      link: " https://nouralhoudakattan.github.io/part-university/",
       img: UNIIMG,
       text: "React",
       dit: "This project was developed using React and features a multi-page layout. It offers a seamless user experience and is designed to be fully responsive, adapting well to various screen sizes. The use of React ensures a dynamic and interactive interface for users across different devices",
