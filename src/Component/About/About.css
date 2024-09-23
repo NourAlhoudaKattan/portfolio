@@ -6,13 +6,13 @@
   padding: 100px 0 100px 0px;
   text-align: center;
   color: var(--title);
-  font-size: 4rem;
+  font-size: 2.5rem;
 }
 .titledark {
   padding: 100px 0 100px 0px;
   text-align: center;
   color: var(--titledark);
-  font-size: 4rem;
+  font-size: 2.5rem;
 }
 .img-text-About {
   display: flex;
@@ -22,13 +22,13 @@
   align-items: center;
 }
 .About p {
-  font-size: 2rem;
+  font-size: 1.4rem;
   text-align: center;
   margin-top: 56px;
 }
 
 .img-about {
-  max-width: 500px;
+  max-width:500px;
 }
 .img-about img {
   width: 100%;
