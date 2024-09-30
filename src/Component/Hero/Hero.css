@@ -112,4 +112,13 @@ line-height:36px;
     width: 300px;
     margin-top: -235px;
   }
+  .line-color h4{
+    color:var(--secondary)
+  }
+  .line-color h3 span{
+    color:var(--secondary)
+  }
+  .line-color h3 {
+    color:var(--secondary)
+  }
 }
