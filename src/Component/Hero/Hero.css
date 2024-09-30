@@ -42,7 +42,8 @@
 .text-hero h4{
 max-width: 411px;
 margin-top: 16px;
-line-height:36px;
+line-height:16px;
+
 }
 .text-hero button {
   margin-top:64px;
@@ -75,17 +76,21 @@ line-height:36px;
   }
 }
 @media screen and (max-width: 600px) {
+  .hello,.tayping{
+    margin: 0;
+  }
   .hero {
     background-size: 150% 100%;
   }
   .text-hero{
     padding: 0px 5.2708vw 0px 5.2708vw;
     position: absolute;
-    top: 46%;
+    top: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    text-align: center;
 
   }
   .text-hero h4{
