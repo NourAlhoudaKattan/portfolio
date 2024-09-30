@@ -27,12 +27,7 @@ export default function Slider() {
   console.log(theme);
   return (
     <>
-      <div
-        className="skills"
-        id="Skills"
-  
-    
-      >
+      <div className="skills">
         {/* <h1 className={isDark ? "titledark" : "titlelight"} >
           Skills
         </h1> */}
@@ -89,7 +84,7 @@ export default function Slider() {
             {" "}
             <div className="htm">
               <img src={git} alt="" />
-              <p  style={{color: theme.color }}>Git/Github</p>
+              <p style={{ color: theme.color }}>Git/Github</p>
             </div>
           </SwiperSlide>
           <SwiperSlide>

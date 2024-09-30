@@ -7,7 +7,7 @@ const Education = () => {
   const [{ theme, isDark }, toggleTheme] = useContext(ThemeContext);
   console.log(theme);
   return (
-    <div>
+    <div id="Education & Experience">
       <h1 className={isDark ? "titledark" : "titlelight"}>
         Education & Experience
       </h1>
