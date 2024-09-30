@@ -79,6 +79,7 @@ line-height:36px;
     background-size: 150% 100%;
   }
   .text-hero{
+    padding: 0px 5.2708vw 0px 5.2708vw;
     position: absolute;
     top: 46%;
     display: flex;
