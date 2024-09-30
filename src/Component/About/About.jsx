@@ -24,12 +24,12 @@ const About = () => {
           <img src={imgabout} />
         </div>
         <div className="text-icon">
-          <p>
-            Hello, I'm Nour Al-Huoda. I'm an IT engineer specialized in
-            designing and developing user interfaces. I work on merging
-            creativity and technology to deliver unique digital solutions that
-            meet users' needs.
-          </p>
+          <h3>I'm Nour Alhouda Kattan</h3>
+          <h4>Software Engineer</h4>
+           <p style={{ backgroundColor: theme.backgroundImage, color: theme.color }}>
+             I'm Nour Al-Huoda. I'm software engineer graduated from the Faculty of Informatics Engineering at Al-Baath University and i specialized in
+            designing and developing user interfaces. 
+          </p   > 
           <div className="icon-about">
             <a href="https://www.instagram.com/nouralhodakattan?igsh=MXZpMnQ1Z3FleGZqNA==">
               <img src={instagram} alt="" />

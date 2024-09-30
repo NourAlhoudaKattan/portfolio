@@ -1,30 +1,30 @@
 .About {
   padding: 0px 5.2708vw 0px 5.2708vw;
   margin-top: 16px;
+ 
 }
 .titlelight {
-  padding: 100px 0 100px 0px;
+  padding: 120px 0 100px 0px;
   text-align: center;
   color: var(--title);
   font-size: 2.5rem;
 }
 .titledark {
-  padding: 100px 0 100px 0px;
+  padding: 120px 0 100px 0px;
   text-align: center;
   color: var(--titledark);
   font-size: 2.5rem;
 }
 .img-text-About {
   display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
+
+
+ 
 }
-.About p {
-  font-size: 1.4rem;
-  text-align: center;
-  margin-top: 56px;
+.About p{
+  line-height: 36px;
 }
 
 .img-about {
@@ -35,9 +35,13 @@
 }
 .icon-about {
   display: flex;
-  justify-content: center;
+
   align-items: center;
   gap: 24px;
+ 
+}
+.icon-about img{
+  width: 32px;
 }
 .icon-about img:hover {
   transform: scale(1.2);
@@ -47,8 +51,21 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  gap: 56px;
+ margin-top: 14px;
+ gap: 24px;
+ width: 50%;
+
+}
+.text-icon h3,.text-icon h4{
+  background: linear-gradient(90deg,  var(--title),var(--titledark)); 
+  background-clip: text; 
+  -webkit-text-fill-color: transparent; 
+  font-size: 1.75rem;
+
+ 
+}
+.text-icon h4{
+  font-size: 1.2rem;
 }
 
 @media screen and (max-width: 992px) {
@@ -61,6 +78,16 @@
 
   .titlelight,
   .titledark {
-    padding: 50px 0 50px 0px;
+    padding: 48px 0 24px 0px;
   }
+  .img-text-About{
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .text-icon{
+    width: 90%;
+  }
+  
 }

@@ -69,10 +69,11 @@ const ShowDetails = () => {
 
   return (
     <div>
-      <Link to="/">
+            
+       <Link to="/">
         {" "}
         <img src={back} alt="" className="btn-back" />
-      </Link>
+      </Link> 
       <div
         className="pshow"
         style={{ backgroundColor: theme.backgroundImage, color: theme.color }}

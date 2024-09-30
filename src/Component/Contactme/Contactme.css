@@ -16,10 +16,7 @@
 }
 .contact-sochial-text h3,
 .form h3 {
-  font-size: 1.4rem;
-}
-.contact-sochial p {
-  font-size: 1.4rem;
+  font-size: 1rem;
 }
 .contact-sochial img {
   width: 15%;
@@ -57,7 +54,7 @@
 }
 .form input::placeholder {
   color: var(--title);
-  font-size: 20px;
+
   opacity: 0.4;
 }
 .form-g {
@@ -84,7 +81,7 @@ padding: 16px 16px;
 }
 .icon-sochial {
   display: flex;
-  gap: 8%;
+  gap: 24px;
   margin-top:24px;
 }
 .form button:hover {
@@ -97,7 +94,7 @@ padding: 16px 16px;
   transition: transform 1s;
 }
 .icon-sochial img {
-  width:56px;
+  width:32px;
 }
 @media screen and (max-width: 992px) {
 

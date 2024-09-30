@@ -5,7 +5,7 @@ import { ThemeContext } from "../../../Contexts/theme";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-import "./Skills.css";
+import "./Slider.css";
 import { Autoplay } from "swiper/modules";
 import html from "../../assets/img/html.svg";
 import css from "../../assets/img/css.svg";
@@ -16,7 +16,7 @@ import git from "../../assets/img/github.svg";
 import figma from "../../assets/img/figma.svg";
 import photosh from "../../assets/img/photoshop.svg";
 
-export default function Skills() {
+export default function Slider() {
   const progressCircle = useRef(null);
   const progressContent = useRef(null);
   const onAutoplayTimeLeft = (s, time, progress) => {
@@ -31,11 +31,11 @@ export default function Skills() {
         className="skills"
         id="Skills"
   
-        style={{ backgroundColor: theme.backgroundImage }}
+    
       >
-        <h1 className={isDark ? "titledark" : "titlelight"} >
+        {/* <h1 className={isDark ? "titledark" : "titlelight"} >
           Skills
-        </h1>
+        </h1> */}
         <Swiper
           spaceBetween={10}
           centeredSlides={false}

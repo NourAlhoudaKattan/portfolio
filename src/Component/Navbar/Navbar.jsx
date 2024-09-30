@@ -12,6 +12,7 @@ import togglelight from "../../assets/img/toggellight.svg";
 import toggeldark from "../../assets/img/toggeldark.svg";
 import line from "../../assets/img/line.png";
 import { useState } from "react";
+
 import { Link } from "react-scroll";
 
 function changeBg() {
@@ -30,15 +31,14 @@ const Navbar = ({ menu, bccolor }) => {
   const [list, setlist] = useState(false);
   const [Home, setHome] = useState("");
   return (
-    <div>
       <nav className={bccolor ? "Navcolor" : "Nav"}>
-        <div className="logo-menu">
+        <div className="logo-menu-darkorlight">
           <img src={NAK} alt="" />
           <ul className="ul-nav">
             {menu.map((e, index) => {
               return (
                 <li key={index}>
-                  <Link
+                 <Link
                     activeClass="active"
                     to={e.path}
                     spy={true}
@@ -60,7 +60,8 @@ const Navbar = ({ menu, bccolor }) => {
                     ) : (
                       <></>
                     )}
-                  </Link>
+                  </Link> 
+               
                 </li>
               );
             })}
@@ -97,7 +98,7 @@ const Navbar = ({ menu, bccolor }) => {
             {menu.map((e, index) => {
               return (
                 <li key={index}>
-                  <Link
+                 <Link
                     activeClass="active"
                     to={e.path}
                     spy={true}
@@ -106,7 +107,8 @@ const Navbar = ({ menu, bccolor }) => {
                     duration={500}
                   >
                     {e.title}
-                  </Link>
+                  </Link> 
+                
                 </li>
               );
             })}
@@ -121,51 +123,6 @@ const Navbar = ({ menu, bccolor }) => {
           </div>
         </div>
       </nav>
-
-      {/* <div className="pdivleft">
-        <div
-          className="divleft"
-          style={{
-            display: list ? "block" : "none",
-            backgroundColor: theme.backgroundImage,
-            color: theme.color,
-          }}
-        >
-          <img
-            src={isDark ? xlight : X}
-            alt=""
-            onClick={() => setlist(!list)}
-            className="X"
-          />
-          <ul>
-            {menu.map((e, index) => {
-              return (
-                <li key={index}>
-                  <Link
-                    activeClass="active"
-                    to={e.path}
-                    spy={true}
-                    smooth={true}
-                    offset={50}
-                    duration={500}
-                  >
-                    {e.title}
-                  </Link>
-                </li>
-              );
-            })}
-          </ul>
-          <hr id="line" />
-          <div className="text-light">
-            <img
-              src={isDark ? togglelight : toggeldark}
-              onClick={toggleTheme}
-            />
-            <span id="light"> {isDark ? "Dark mood" : "Light mood"}</span>
-          </div>
-        </div>
-      </div> */}
-    </div>
   );
 };
 
