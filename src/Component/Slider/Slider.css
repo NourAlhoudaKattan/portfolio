@@ -79,8 +79,10 @@
   gap: 16px;
 }
 .htm p{
- font-size:small;
-}
+ 
+  display: none;
+ }
+ 
 
 @media screen and (max-width: 992px) {
   .htm {
@@ -93,4 +95,5 @@
     height: 60px;
     font-size: 10px;
   }
+
 }
