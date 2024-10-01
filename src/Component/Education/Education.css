@@ -24,6 +24,7 @@
     font-size: 15px;
     background-color: #fff;
     border-radius: 6px;
+    line-height: 24px;
 }
 .right-container{
     left:50%;
@@ -36,6 +37,7 @@ left:0%;
     justify-content: space-between;
     align-items: center;
     gap: 36px;
+    margin-top: 16px;
 }
 .date{
 display: flex;
