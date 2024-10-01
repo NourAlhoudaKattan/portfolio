@@ -11,38 +11,17 @@
   align-items: center;
   color: var(--primary);
 }  
-   
+  
+.hello{
 
-.hello, .tayping{
-  font-size: 1.75rem;
   margin: 16px 0;
   color: var(--primary);
-
-
-}
-.hello span{
-  color: var(--primary);
-  font-size: 1.875rem;
-  /* background: linear-gradient(90deg,  #57387B,#57387B);  */
-
-  /* background-clip: text; 
-  -webkit-text-fill-color: transparent;  */
-
-
-}
- .tayping span{
-  font-size: 1.3rem;
-  color: var(--primary);
-  /* background: linear-gradient(90deg,  #57387B,#57387B);  */
-  /* background-clip: text; 
-  -webkit-text-fill-color: transparent;  */
-
 }
 
 .text-hero h4{
-max-width: 411px;
-margin-top: 16px;
-line-height:16px;
+
+margin-top: 36px;
+line-height:24px;
 
 }
 .text-hero button {
@@ -118,13 +97,8 @@ line-height:16px;
     width: 300px;
     margin-top: -235px;
   }
-  .line-color h4{
+  .line-color h4, .line-color h2  ,.line-color h5{
     color:var(--secondary)
   }
-  .line-color h3 span{
-    color:var(--secondary)
-  }
-  .line-color h3 {
-    color:var(--secondary)
-  }
+
 }

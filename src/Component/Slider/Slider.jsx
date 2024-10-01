@@ -28,9 +28,7 @@ export default function Slider() {
   return (
     <>
       <div className="skills">
-        {/* <h1 className={isDark ? "titledark" : "titlelight"} >
-          Skills
-        </h1> */}
+
         <Swiper
           spaceBetween={10}
           centeredSlides={false}

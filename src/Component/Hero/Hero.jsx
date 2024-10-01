@@ -23,9 +23,8 @@ const Hero = () => {
         }
       >
         <div className={isDark?"text-hero":"text-hero line-color"} >
-        {/* <div className="text-hero" > */}
-          <h3  className="hello">Hello,my name is <span>Nour Alhouda</span></h3>
-            <h3 className="tayping"> <span>Front-end Developer & UI/UX Designer</span></h3> 
+          <h2  className="hello">Hello,my name is <span>Nour Alhouda</span></h2>
+            <h5 className="tayping"> <span>Front-end Developer & UI/UX Designer</span></h5> 
      
            <h4>If you have any ideas or questions about your project.<br/>I'm here to help!</h4>
           <a

@@ -78,6 +78,9 @@
   align-items: center;
   gap: 16px;
 }
+.htm p{
+ font-size:small;
+}
 
 @media screen and (max-width: 992px) {
   .htm {
