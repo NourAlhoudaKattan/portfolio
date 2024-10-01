@@ -30,11 +30,11 @@ const Footer = ({menu}) => {
                               ]} bccolor={false}  />  */}
       <ul className='ul-footer'>
     <li>   <a href='#Hero'  >Home</a></li>
-    <li>   <a href='#About'  >About Me</a></li>
+    <li>   <a href='#About'  >About</a></li>
       <li>  <a href='#Skills'  > Skills</a></li>
       <li>  <a href='#Education & Experience'> Education&Experience</a></li>
      <li>   <a href='#Projects' > Projects</a></li>
-      <li>  <a href='#Contactme' >Contact Me</a></li>
+      <li>  <a href='#Contactme' >Contact </a></li>
    
       </ul>
       <div className='icon-sochial' id='iconfooter'>
