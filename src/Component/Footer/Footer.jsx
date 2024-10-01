@@ -32,6 +32,7 @@ const Footer = ({menu}) => {
     <li>   <a href='#Hero'  >Home</a></li>
     <li>   <a href='#About'  >About Me</a></li>
       <li>  <a href='#Skills'  > Skills</a></li>
+      <li>  <a href='#Education & Experience'> Education&Experience</a></li>
      <li>   <a href='#Projects' > Projects</a></li>
       <li>  <a href='#Contactme' >Contact Me</a></li>
    
