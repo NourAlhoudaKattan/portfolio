@@ -59,7 +59,9 @@ const Footer = () => {
             {" "}
             <img src={teleWhite} alt="" />
           </a>
-          <img src={linkedinwhite} alt="" />
+          <a href="https://www.linkedin.com/in/nour-alhouda-kattan">
+            <img src={linkedinwhite} alt="" />
+          </a>
         </div>
       </div>
     </div>

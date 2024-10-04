@@ -40,7 +40,7 @@ const About = () => {
             <a href="https://t.me/Nouralhoudakattan">
               <img src={telegram} alt="" />
             </a>
-            <a href="#">
+            <a href="https://www.linkedin.com/in/nour-alhouda-kattan">
               <img src={linkedin} alt="" />
             </a>
           </div>
