@@ -56,11 +56,11 @@ const Education = () => {
       </h1>
       <div className="timeline">
         <div className="container lift-container">
-          <div className="text-box-edu">
+          <div className="text-box-edu"   style={{ backgroundColor:isDark?"#7651972e":"white", color: theme.color }}>
             <h3>UNIVERSITY</h3>
             <small>2019-2024</small>
             <div className="se">
-              <p>
+              <p >
                 graduated from the Faculty of Informatics Engineering at
                 Al-Baath University
               </p>
@@ -69,8 +69,8 @@ const Education = () => {
           </div>
         </div>
 
-        <div className="container right-container">
-          <div className="text-box-edu">
+        <div className="container right-container"   >
+          <div className="text-box-edu" style={{ backgroundColor:isDark?"#7651972e":"white", color: theme.color }}>
             <h3>UI/UX</h3>
             <small>3/2024-7/2024</small>
             <div className="se">
@@ -80,8 +80,8 @@ const Education = () => {
           </div>
         </div>
 
-        <div className="container lift-container">
-          <div className="text-box-edu">
+        <div className="container lift-container"  >
+          <div className="text-box-edu"  style={{ backgroundColor:isDark?"#7651972e":"white", color: theme.color }}>
             <h3>FRONT-END</h3>
             <small >9/2023-1/2024</small>
             <div className="se">
@@ -90,8 +90,8 @@ const Education = () => {
             </div>
           </div>
         </div>
-        <div className="container right-container">
-          <div className="text-box-edu">
+        <div className="container right-container" >
+          <div className="text-box-edu"  style={{ backgroundColor:isDark?"#7651972e":"white", color: theme.color }}>
             <h3>UI/UX</h3>
             <small >5/2023-7/2023</small>
             <div className="se">
@@ -100,8 +100,8 @@ const Education = () => {
             </div>
           </div>
         </div>
-        <div className="container lefy-container">
-          <div className="text-box-edu">
+        <div className="container lefy-container"  >
+          <div className="text-box-edu "  style={{ backgroundColor:isDark?"#7651972e":"white", color: theme.color }}>
           <h3>PHOTOSHOP</h3>
           <small >3/2023-5/2023</small>
             <div className="se">
@@ -110,8 +110,8 @@ const Education = () => {
             </div>
           </div>
         </div>
-        <div className="container right-container">
-          <div className="text-box-edu">
+        <div className="container right-container"  >
+          <div className="text-box-edu"  style={{ backgroundColor:isDark?"#7651972e":"white", color: theme.color }}>
           <h3>MARKITING</h3>
           <small >8/2022-10/2022</small>
             <div className="se">

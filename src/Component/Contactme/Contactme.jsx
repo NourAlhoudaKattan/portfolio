@@ -64,7 +64,7 @@ const Contactme = () => {
             <input
               type="text"
               placeholder="enter your name"
-              className={isDark ? "form-input-dark" : "form-input"}
+              className={isDark ? "form-input-dark" : "form-input" } style={{ backgroundColor: theme.backgroundImage }}
             />
           </div>
           <div className="form-g">
@@ -73,6 +73,7 @@ const Contactme = () => {
               type="text"
               placeholder="enter your email"
               className="form-input"
+              style={{ backgroundColor: theme.backgroundImage }}
             />
           </div>
           <div className="form-g">
@@ -82,6 +83,7 @@ const Contactme = () => {
               placeholder="enter your message"
               id="message"
               className="form-input"
+              style={{ backgroundColor: theme.backgroundImage }}
             />
             <button>Send</button>
           </div>

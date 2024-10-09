@@ -23,10 +23,10 @@ const Hero = () => {
         }
       >
         <div className={isDark?"text-hero":"text-hero line-color"} >
-          <h2 >Hello,my name is Nour Alhouda</h2>
-            <h4>Front-end Developer & UI/UX Designer</h4> 
+          <h1 >Hello,my name is Nour Alhouda</h1>
+            <h3>Front-end Developer & UI/UX Designer</h3> 
      
-           <h4>If you have any ideas or questions about your project.<br/>I'm here to help!</h4>
+           <h3>If you have any ideas or questions about your project<br/>I'm here to help!</h3>
           <a
             href="https://drive.usercontent.google.com/u/0/uc?id=11u4BLdXpbSDAwiakW624cwl7lYV51_Xm&export=download"
             download="Nour Alhouda kattan CV's"

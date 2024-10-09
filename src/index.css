@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Mochiy Pop One", sans-serif;
+    font-weight: 400;
+  }
+  :root {
+    --primary: #f5f8f5;
+    --secondary: #020b24;
+    --title: #765197;
+    --titledark: #d171b9;
+  }

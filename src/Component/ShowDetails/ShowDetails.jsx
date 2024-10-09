@@ -2,17 +2,19 @@ import "./ShowDetails.css";
 import { useContext } from "react";
 import { ThemeContext } from "../../../Contexts/theme";
 import { Link, useParams } from "react-router-dom";
-import BOOKIMG from "../../assets/img/BOOKIMG.png";
-import ORIMG from "../../assets/img/ORGIMG.png";
-import FURIMG from "../../assets/img/FURNEW.png";
-import RNIMG from "../../assets/img/RENEW.png";
-import TRVELIMG from "../../assets/img/TRVELIMG.png";
-import UNIIMG from "../../assets/img/UNIIMG.png";
+import BOOKIMG from "../../assets/img/lab-books.png";
+import ORIMG from "../../assets/img/lab-final.png";
+import FURIMG from "../../assets/img/lab-furnetur.png";
+import RNIMG from "../../assets/img/lab-renbut.png";
+import TRVELIMG from "../../assets/img/lab-travel.png";
+import UNIIMG from "../../assets/img/lab-univercity.png";
 import back from "../../assets/img/back.svg";
+import bcDetiales from "../../assets/img/bc-detiales.png";
+import bcdetialesdark from "../../assets/img/bc-detiales-dark.png";
+
 
 const ShowDetails = () => {
   const [{ theme, isDark }, toggleTheme] = useContext(ThemeContext);
-  console.log(theme);
   const { id } = useParams();
   let projects = [
     {
@@ -68,41 +70,46 @@ const ShowDetails = () => {
   const pro = projects.find((e) => e.id === parseInt(id));
 
   return (
-    <div>
-            
-       <Link to="/">
+    <div    style={{ backgroundColor: theme.backgroundImage, color: theme.color }}>
+        <Link to="/">
         {" "}
         <img src={back} alt="" className="btn-back" />
-      </Link> 
-      <div
-        className="pshow"
-        style={{ backgroundColor: theme.backgroundImage, color: theme.color }}
-      >
-        <div className="item-img-det">
+      </Link>
+
+   
+    <div
+      className="pshow"
+      style={
+        isDark
+          ? { backgroundImage: `url(${bcdetialesdark })` }
+          : {
+              backgroundImage: `url(${bcDetiales})`,
+            }
+      }
+    >
+    
+   <div className="item-img-det">
+    
           {
             <img
               src={pro.img}
-              alt=""
-              data-aos="fade-down"
-              data-aos-easing="linear"
-              data-aos-duration="1500"
+          
+            
             />
           }
-        </div>
-        <div
-          className="item-text-det"
-     
-        >
-          <h3>Name:</h3>
+        </div> 
+     <div
+          className="item-text-det">
+          <h3 className={isDark ? "titledark-show" : "titlelight-show"}>Name:</h3>
           <p>{pro.Name}</p>
-          <h3>Details:</h3>
+          <h3  className={isDark ? "titledark-show" : "titlelight-show"}>Details:</h3>
           <p className="description">{pro.dit}</p>
-          <h3>Languages and Techniqes</h3>
+          <h3  className={isDark ? "titledark-show" : "titlelight-show"}>Languages and Techniqes</h3>
           <p className="description">{pro.text}</p>
-          <h3>Github</h3>
+          <h3  className={isDark ? "titledark-show" : "titlelight-show"}>Github</h3>
           <Link to={pro.link} className="github-link"   style={{color: theme.color }}>{pro.link}</Link>
         </div>
-      </div>
+    </div>
     </div>
   );
 };

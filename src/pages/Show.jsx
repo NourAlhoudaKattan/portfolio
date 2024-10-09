@@ -15,7 +15,7 @@ const Show = () => {
                               {path:"/Contactme",title:"Contact Me"}
                               ]} bccolor={true}  />   */}
          <ShowDetails/>
-          <Footer/> 
+           {/* <Footer/>  */}
     </div>
   )
 }
