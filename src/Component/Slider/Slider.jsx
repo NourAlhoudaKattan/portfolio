@@ -28,7 +28,6 @@ export default function Slider() {
   return (
     <>
       <div className="skills">
-
         <Swiper
           spaceBetween={10}
           centeredSlides={false}

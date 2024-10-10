@@ -12,7 +12,6 @@ import back from "../../assets/img/back.svg";
 import bcDetiales from "../../assets/img/bc-detiales.png";
 import bcdetialesdark from "../../assets/img/bc-detiales-dark.png";
 
-
 const ShowDetails = () => {
   const [{ theme, isDark }, toggleTheme] = useContext(ThemeContext);
   const { id } = useParams();
@@ -70,46 +69,48 @@ const ShowDetails = () => {
   const pro = projects.find((e) => e.id === parseInt(id));
 
   return (
-    <div    style={{ backgroundColor: theme.backgroundImage, color: theme.color }}>
-        <Link to="/">
+    <div style={{ backgroundColor: theme.backgroundImage, color: theme.color }}>
+      <Link to="/">
         {" "}
         <img src={back} alt="" className="btn-back" />
       </Link>
 
-   
-    <div
-      className="pshow"
-      style={
-        isDark
-          ? { backgroundImage: `url(${bcdetialesdark })` }
-          : {
-              backgroundImage: `url(${bcDetiales})`,
-            }
-      }
-    >
-    
-   <div className="item-img-det">
-    
-          {
-            <img
-              src={pro.img}
-          
-            
-            />
-          }
-        </div> 
-     <div
-          className="item-text-det">
-          <h3 className={isDark ? "titledark-show" : "titlelight-show"}>Name:</h3>
+      <div
+        className="pshow"
+        style={
+          isDark
+            ? { backgroundImage: `url(${bcdetialesdark})` }
+            : {
+                backgroundImage: `url(${bcDetiales})`,
+              }
+        }
+      >
+        <div className="item-img-det">{<img src={pro.img} />}</div>
+        <div className="item-text-det">
+          <h3 className={isDark ? "titledark-show" : "titlelight-show"}>
+            Name:
+          </h3>
           <p>{pro.Name}</p>
-          <h3  className={isDark ? "titledark-show" : "titlelight-show"}>Details:</h3>
+          <h3 className={isDark ? "titledark-show" : "titlelight-show"}>
+            Details:
+          </h3>
           <p className="description">{pro.dit}</p>
-          <h3  className={isDark ? "titledark-show" : "titlelight-show"}>Languages and Techniqes</h3>
+          <h3 className={isDark ? "titledark-show" : "titlelight-show"}>
+            Languages and Techniqes
+          </h3>
           <p className="description">{pro.text}</p>
-          <h3  className={isDark ? "titledark-show" : "titlelight-show"}>Github</h3>
-          <Link to={pro.link} className="github-link"   style={{color: theme.color }}>{pro.link}</Link>
+          <h3 className={isDark ? "titledark-show" : "titlelight-show"}>
+            Github
+          </h3>
+          <Link
+            to={pro.link}
+            className="github-link"
+            style={{ color: theme.color }}
+          >
+            {pro.link}
+          </Link>
         </div>
-    </div>
+      </div>
     </div>
   );
 };

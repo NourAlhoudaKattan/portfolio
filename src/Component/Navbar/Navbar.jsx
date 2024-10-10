@@ -12,7 +12,6 @@ import togglelight from "../../assets/img/toggellight.svg";
 import toggeldark from "../../assets/img/toggeldark.svg";
 import line from "../../assets/img/line.png";
 import { useState } from "react";
-
 import { Link } from "react-scroll";
 
 function changeBg() {

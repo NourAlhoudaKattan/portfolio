@@ -1,7 +1,7 @@
 import { useContext } from "react";
 import { ThemeContext } from "../../../Contexts/theme";
 import email from "../../assets/img/emailnew.svg";
-import phon from "../../assets/img/phonenew.svg";
+import phone from "../../assets/img/phonenew.svg";
 import location from "../../assets/img/location.svg";
 import instagram from "../../assets/img/instagram.svg";
 import facebook from "../../assets/img/facebook.svg";
@@ -29,7 +29,7 @@ const Contactme = () => {
             </div>
           </div>
           <div className="contact-sochial">
-            <img src={phon} alt="" />
+            <img src={phone} alt="" />
             <div className="contact-sochial-text">
               <h3>Phone</h3>
               <p>0956703387</p>

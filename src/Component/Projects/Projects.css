@@ -14,7 +14,6 @@
 .card-pro-child {
   position: relative;
 }
-
 .card-pro-child img {
   width: 100%;
   border-radius: 30px;
@@ -31,14 +30,13 @@
   left: 0;
   display: none;
 }
-
 .button-card button {
   padding: 20px;
   border: 1px solid var(--title);
   background-color: var(--title);
   border-radius: 20px;
   color: #fff;
-  font-size: 1.4rem;
+  font-size: 1rem;
   position: absolute;
   top: 50%;
   left: 29%;
@@ -47,7 +45,6 @@
 #btn-card {
   transform: translate(56%, -50%);
 }
-
 .card-pro-child:hover div {
   display: block;
 }

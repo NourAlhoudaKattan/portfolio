@@ -1,4 +1,3 @@
-
 .Nav {
   height: 100px;
   display: flex;
@@ -29,7 +28,7 @@
 }
 .ul-nav li a {
   color: var(--primary);
- text-decoration: none;
+  text-decoration: none;
   text-transform: capitalize;
   font-size: 1.1rem;
 }
@@ -63,7 +62,6 @@
   text-decoration: none;
   font-size: 16px;
 }
-
 .X {
   margin-top: 32px;
   margin-bottom: 56px;
@@ -71,12 +69,10 @@
   width: 42px;
   height: 42px;
 }
-
 #line {
   margin-top: 80px;
   color: var(--secondary);
 }
-
 .text-light-menu {
   display: flex;
   justify-content: space-between;
@@ -90,7 +86,6 @@
 .navbarScroll {
   background-image: url(../../assets/img/bcnav.png);
 }
-
 .imgline {
   width: 70px;
   margin-top: -16px;
@@ -101,13 +96,12 @@
   align-items: center;
   flex-direction: column;
 }
-.logo-menu-darkorlight{
+.logo-menu-darkorlight {
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 100%;
 }
-
 @media screen and (max-width: 992px) {
   html {
     font-size: 10px;
@@ -116,7 +110,6 @@
   .iconnav {
     display: none;
   }
-
   .menuicon {
     display: block;
   }
@@ -124,5 +117,6 @@
     display: none;
   }
   .Nav {
-    height:80px;}
+    height: 80px;
+  }
 }

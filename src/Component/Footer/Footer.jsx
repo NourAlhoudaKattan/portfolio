@@ -12,8 +12,9 @@ const Footer = () => {
   const [{ theme, isDark }, toggleTheme] = useContext(ThemeContext);
 
   return (
-    <div style={{ backgroundColor: theme.backgroundImage, color: theme.color }}>
+    <div style={{ backgroundColor: theme.backgroundImage, color: theme.color }}   id="Education&Experience">
       <div
+
         className="footer"
         style={
           isDark
@@ -36,7 +37,7 @@ const Footer = () => {
           </li>
           <li>
             {" "}
-            <a href="#Education & Experience"> Education&Experience</a>
+            <a href="#Education&Experience"> Education&Experience</a>
           </li>
           <li>
             {" "}

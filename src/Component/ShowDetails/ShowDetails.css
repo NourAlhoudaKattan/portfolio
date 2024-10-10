@@ -1,9 +1,9 @@
 .pshow {
   display: flex;
- flex-direction: row-reverse;
- justify-content: center;
- padding: 0px 5.2708vw 0px 5.2708vw;
- align-items: center;
+  flex-direction: row-reverse;
+  justify-content: center;
+  padding: 0px 5.2708vw 0px 5.2708vw;
+  align-items: center;
   max-width: 100vw;
   height: 100vh;
   background-repeat: no-repeat;
@@ -20,7 +20,6 @@
 .item-text-det h1 {
   font-size: 2.5rem;
   font-weight: 700;
-
 }
 .item-text-det h6 {
   font-size: 12px;
@@ -44,30 +43,29 @@
   width: 15%;
   position: absolute;
 }
-.github-link{
-    text-decoration: none;
+.github-link {
+  text-decoration: none;
 }
 
-.titledark-show{
+.titledark-show {
   background: linear-gradient(90deg, var(--title), var(--titledark));
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.titlelight-show{
+.titlelight-show {
   background: linear-gradient(90deg, var(--title), var(--titledark));
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 @media screen and (max-width: 600px) {
   .btn-back {
-    width:100px;
+    width: 100px;
   }
-  .pshow{
+  .pshow {
     flex-wrap: wrap;
-  
-}
-.item-img-det {
-  max-width: 400px;
-  margin-top: 100px;
-}
+  }
+  .item-img-det {
+    max-width: 400px;
+    margin-top: 100px;
+  }
 }

@@ -1,12 +1,9 @@
 .contactme {
   padding: 0px 5.1244vw 0px 5.1244vw;
-  background-color: var(--primary);
-  margin-top: 16px;
 }
 .contact-sochial {
   display: flex;
-  gap:24px;
-
+  gap: 24px;
   align-items: center;
 }
 .contact-sochial-text {
@@ -39,7 +36,6 @@
 .form-input {
   width: 48vw;
   height: 56px;
-  background-color: var(--primary);
   border: 2px solid var(--title);
   border-radius: 10px;
   padding: 16px;
@@ -47,7 +43,6 @@
 .form-input-dark {
   width: 48vw;
   height: 56px;
-  background-color: var(--primary);
   border: 2px solid var(--titledark);
   border-radius: 10px;
   padding: 16px;
@@ -71,8 +66,8 @@
   opacity: 0.4;
 }
 .form button {
-padding: 16px 16px;
-width: 100%;
+  padding: 16px 16px;
+  width: 100%;
   background-image: linear-gradient(to right, #765197, #d171b9);
   color: var(--primary);
   border: none;
@@ -84,27 +79,21 @@ width: 100%;
 .icon-sochial {
   display: flex;
   gap: 24px;
-  margin-top:24px;
+  margin-top: 24px;
 }
-/* .form button:hover {
-  transform: scale(1);
-  transition: transform 1s;
-} */
-
 .sochial img:hover {
   transform: scale(1.2);
   transition: transform 1s;
 }
 .icon-sochial img {
-  width:32px;
+  width: 32px;
 }
 @media screen and (max-width: 992px) {
-
   .icon-sochial img {
     width: 15%;
   }
   .icon-sochial img {
-    width:32px;
+    width: 32px;
   }
   .sochial-form {
     gap: 42px;

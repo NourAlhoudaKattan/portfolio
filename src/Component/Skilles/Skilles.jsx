@@ -6,23 +6,6 @@ import ux from "../../assets/img/ux-light.png";
 import uxdark from "../../assets/img/ux-dark.png";
 import web from "../../assets/img/web.png";
 import "./Skilles.css";
-import Slider from "../../Component/Slider/Slider";
-// let projects = [
-//   {
-
-//     img: ui,
-//     text: "React,Api",
-//     dit: "A project with two pages was developed using React and integrated with API links. The Dark Mode and Light Mode features were added to enhance user experience across both pages. Users can conveniently switch between modes to cater to their preferences.",
-//   },
-//   {
-//     link: "https://nouralhoudakattan.github.io/FINAL-L1/",
-//     img: ux,
-//     text: "Html,Css",
-//     dit: "This project was coded using HTML and CSS, featuring a multi-page design that is fully responsive across all screen sizes. This ensures a seamless and comfortable user experience on various devices, reflecting our attention to detail and user comfort",
-//   }
-
-// ];
-
 const Skilles = () => {
   const [{ theme, isDark }, toggleTheme] = useContext(ThemeContext);
   return (

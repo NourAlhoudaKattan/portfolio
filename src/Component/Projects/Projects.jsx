@@ -32,7 +32,11 @@ const Projects = () => {
       Name: travel,
       link: "https://nouralhoudakattan.github.io/travel/",
     },
-    { id: 6, Name: uni, link: "https://nouralhoudakattan.github.io/part-university/" },
+    {
+      id: 6,
+      Name: uni,
+      link: "https://nouralhoudakattan.github.io/part-university/",
+    },
   ];
   const [{ theme, isDark }, toggleTheme] = useContext(ThemeContext);
 
@@ -47,10 +51,7 @@ const Projects = () => {
       <div className="card-pro">
         {projects.map((e) => {
           return (
-            <div
-              className="card-pro-child  "
-         
-            >
+            <div className="card-pro-child  ">
               <img src={e.Name} alt="" />
               <div className="button-card">
                 <div>

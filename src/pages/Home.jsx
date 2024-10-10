@@ -15,10 +15,9 @@ const Home = () => {
           { path: "Hero", title: "Home" },
           { path: "About", title: "About Me" },
           { path: "Skills", title: "Skills" },
-          { path: "Education & Experience", title: "Education&Experience" },
+          { path: "Education&Experience", title: "Education&Experience" },
           { path: "Projects", title: "Projects" },
           { path: "Contactme", title: "Contact Me" },
-          
         ]}
         bccolor={false}
       />
