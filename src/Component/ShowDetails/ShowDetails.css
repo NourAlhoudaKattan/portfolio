@@ -26,16 +26,16 @@
   font-weight: 400;
 }
 .item-text-det h3 {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 700;
-  margin-top: 31px;
+  margin-top: 16px;
 }
 .description {
   font-size: 0.875rem;
   font-weight: 400;
-  line-height: 23px;
+  line-height: 32px;
   text-align: justified;
-  margin-top: 10px;
+  margin-top: 8px;
   max-width: 691.25px;
 }
 .btn-back {
@@ -67,5 +67,10 @@
   .item-img-det {
     max-width: 400px;
     margin-top: 100px;
+  }
+  .description {
+
+    line-height:24px;
+    
   }
 }
