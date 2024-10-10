@@ -96,7 +96,7 @@ const ShowDetails = () => {
           </h3>
           <p className="description">{pro.dit}</p>
           <h3 className={isDark ? "titledark-show" : "titlelight-show"}>
-            Languages and Techniqes
+            Techniqes
           </h3>
           <p className="description">{pro.text}</p>
           <h3 className={isDark ? "titledark-show" : "titlelight-show"}>
