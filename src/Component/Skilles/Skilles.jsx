@@ -36,7 +36,7 @@ const Skilles = () => {
         </div>
       </div>
       <div id="web-skill">
-        <div className="img-skill" style={{ marginRight: "15%" }}>
+        <div className="img-skill" style={{ marginRight: "10%" }}>
           <img src={web} alt=""/>
         </div>
 
