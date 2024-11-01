@@ -51,6 +51,7 @@
   flex-direction: column;
   gap: 24px;
   align-items: center;
+
 }
 
 .ul-menu li {
@@ -61,6 +62,7 @@
 .ul-menu a {
   text-decoration: none;
   font-size: 16px;
+  
 }
 .X {
   margin-top: 32px;
@@ -95,6 +97,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  cursor: pointer;
 }
 .logo-menu-darkorlight {
   display: flex;
