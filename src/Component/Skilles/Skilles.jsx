@@ -17,7 +17,7 @@ const Skilles = () => {
       <h1 className={isDark ? "titledark" : "titlelight"}>Skilles</h1>
 
       <div className="sec1-skill">
-        <div className="img-skill" style={{ marginLeft: "10%" }}>
+        <div className="img-skill" style={{ marginLeft: "15%" }}>
           {" "}
           <img src={isDark ? uxdark : ux} alt="" />
         </div>
@@ -36,7 +36,7 @@ const Skilles = () => {
         </div>
       </div>
       <div id="web-skill">
-        <div className="img-skill" style={{ marginRight: "10%" }}>
+        <div className="img-skill" style={{ marginRight: "15%" }}>
           <img src={web} alt=""/>
         </div>
 
