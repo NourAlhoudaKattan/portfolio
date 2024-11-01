@@ -123,7 +123,7 @@ const Education = () => {
             </div>
           </div>
         </div>
-        <div className="container lefy-container">
+        <div className="container lify-container">
           <div
             className="text-box-edu "
             style={{
