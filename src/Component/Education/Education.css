@@ -44,6 +44,9 @@
   margin-bottom: 24px;
 }
 @media screen and (max-width: 600px) {
+  .text-box-edu h3{
+    font-size: 1.5rem;
+  }
   .timeline {
     margin: 50px auto;
   }
@@ -54,6 +57,7 @@
     font-size: 12px;
   }
   .text-box-edu p {
+    font-size: 1.4rem;
     margin-bottom: 10px;
   }
   .right-container {
