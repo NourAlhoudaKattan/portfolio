@@ -2,18 +2,6 @@
   padding: 0px 5.2708vw 0px 5.2708vw;
   margin-top: 16px;
 }
-.titlelight {
-  padding: 120px 0 100px 0px;
-  text-align: center;
-  color: var(--title);
-  font-size: 2.5rem;
-}
-.titledark {
-  padding: 120px 0 100px 0px;
-  text-align: center;
-  color: var(--titledark);
-  font-size: 2.5rem;
-}
 .img-text-About {
   display: flex;
   justify-content: space-between;
@@ -21,6 +9,7 @@
 }
 .About p {
   line-height: 36px;
+  font-size: 1.2rem;
 }
 .img-about {
   max-width: 500px;
@@ -57,13 +46,11 @@
   font-size: 1.75rem;
 }
 .text-icon h4 {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
 }
 
 @media screen and (max-width: 992px) {
-  .About p {
-    margin-top: 24px;
-  }
+ 
   .icon-about img {
     width: 80%;
   }
@@ -80,5 +67,8 @@
   }
   .text-icon {
     width: 90%;
+  }
+  .About p {
+    font-size: 1.4rem;
   }
 }

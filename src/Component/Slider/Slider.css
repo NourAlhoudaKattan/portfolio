@@ -78,6 +78,11 @@
   display: none;
 }
 @media screen and (max-width: 992px) {
+  .swiper {
+  
+    height: 149px;
+ 
+  }
   .htm {
     display: flex;
     justify-content: center;

@@ -42,7 +42,7 @@ const Contactme = () => {
               <p>Hama-Syria</p>
             </div>
           </div>
-          <div className="icon-sochial">
+          {/* <div className="icon-sochial">
             <a href="https://www.instagram.com/nouralhodakattan?igsh=MXZpMnQ1Z3FleGZqNA==">
               <img src={instagram} alt="" />
             </a>
@@ -56,7 +56,7 @@ const Contactme = () => {
               {" "}
               <img src={linkedin} alt="" />
             </a>
-          </div>
+          </div> */}
         </div>
         <div className="form" data-aos="fade-up" data-aos-duration="3000">
           <div className="form-g">

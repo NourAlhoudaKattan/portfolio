@@ -10,7 +10,7 @@ const Hero = () => {
   const [{ theme, isDark }, toggleTheme] = useContext(ThemeContext);
   console.log(theme);
   return (
-    <div style={{ backgroundColor: theme.backgroundImage, color: theme.color }}>
+    <div style={{ backgroundColor: theme.backgroundImag }}>
       <div
         className="hero"
         id="Hero"
@@ -34,6 +34,7 @@ const Hero = () => {
             download="Nour Alhouda kattan CV's"
           >
             <button
+            className="btn"
               style={{
                 backgroundColor: theme.backgroundImage,
                 color: theme.color,

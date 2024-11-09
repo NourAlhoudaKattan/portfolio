@@ -63,6 +63,7 @@
   }
   .pshow {
     flex-wrap: wrap;
+    background-size: 100% 138%;
   }
   .item-img-det {
     max-width: 400px;

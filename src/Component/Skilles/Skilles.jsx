@@ -15,8 +15,8 @@ const Skilles = () => {
       style={{ backgroundColor: theme.backgroundImage, color: theme.color }}
     >
       <h1 className={isDark ? "titledark" : "titlelight"}>Skilles</h1>
-
-      <div className="sec1-skill">
+        <div className="Skill-mobil">
+        <div className="sec1-skill">
         <div className="img-skill" style={{ marginLeft: "15%" }}>
           {" "}
           <img src={isDark ? uxdark : ux} alt="" />
@@ -74,6 +74,8 @@ const Skilles = () => {
           </div>
         </div>
       </div>
+        </div>
+    
     </div>
   );
 };

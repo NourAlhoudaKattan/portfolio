@@ -2,7 +2,7 @@
   padding: 56px 5.1244vw 56px 5.1244vw;
   margin-top: 100px;
   color: var(--primary);
-  font-size: 0.8rem;
+  font-size: 1rem;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -29,7 +29,13 @@
   transition: transform 1s;
 }
 @media screen and (max-width: 600px) {
+  .footer{
+    background-size: 100% 150%;
+  }
   .ul-footer {
-    gap: 12px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+    font-size: 1.4rem;
   }
 }
