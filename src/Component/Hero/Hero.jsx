@@ -30,8 +30,8 @@ const Hero = () => {
             I'm here to help!
           </p>
           <a
-            href="https://drive.usercontent.google.com/u/0/uc?id=11u4BLdXpbSDAwiakW624cwl7lYV51_Xm&export=download"
-            download="Nour Alhouda kattan CV's"
+            href="https://drive.usercontent.google.com/u/0/uc?id=1sOrvxkk5PmLHNYa_sgcw9GuHXHGglNZL&export=download"
+            download="Nour Alhouda kattan CV"
           >
             <button
             className="btn"
