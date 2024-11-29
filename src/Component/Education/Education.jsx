@@ -147,7 +147,7 @@ const Education = () => {
               color: theme.color,
             }}
           >
-            <h3>MARKITING</h3>
+            <h3>MARKETING</h3>
             <small>8/2022-10/2022</small>
             <div className="text-box-edu-p">
               <p>I completed this training with the Sanad team</p>
