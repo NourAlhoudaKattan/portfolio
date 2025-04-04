@@ -14,7 +14,7 @@ const Skilles = () => {
       id="Skills"
       style={{ backgroundColor: theme.backgroundImage, color: theme.color }}
     >
-      <h1 className={isDark ? "titledark" : "titlelight"}>Skilles</h1>
+      <h1 className={isDark ? "titledark" : "titlelight"}>Skills</h1>
         <div className="Skill-mobil">
         <div className="sec1-skill">
         <div className="img-skill" style={{ marginLeft: "15%" }}>
